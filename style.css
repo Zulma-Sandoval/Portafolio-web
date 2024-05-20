@@ -1,4 +1,4 @@
-* {
+nav,header {
     color: white;
 }
 
@@ -6,15 +6,51 @@
     color:white;
 }
 
+.icono{
+    font-size: 3rem; 
+    color: red;
+    background-color: black;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 12px;
+}
+
+.icono-contacto{
+    font-size: 2rem; 
+    color: black;
+    background-color: white;
+    /*        arriba derecha abajo izq 
+    padding: 0.5rem 1rem 0.5rem 1rem; */
+    padding: 0.8rem 1rem;
+    margin: 1rem;
+    border-radius: 75%; 
+}
+
+#icono-footer{
+    font-size: 5rem; 
+    color: white;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 12px;
+}
+
+.subtitulo-habilidades{
+    margin-top: 16px;
+}
+
 header {
     padding-right: 0px !important;
     padding-left: 0px !important;
     height: 100vh;
 
-    background-image: url('fondo.png');
+    background-image: url('assets/fondo.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; /* Prevent the image from repeating */
     background-attachment: fixed; /* Keep the image in place while scrolling */
     filter: brightness(0.8); /* Adjust the brightness */
+}
+
+#iconos a{
+    padding-top: 16px;
 }
